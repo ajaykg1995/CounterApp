@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+body {
+  font-family: sans-serif;
+  background: #1F1D2B;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+.count {
+  width: 500px;
+  background: #272636;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: 0.5s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2px;
+}
+.left{
+  display :flex;
+   align-items: center;
+}
+.left button {
+  border: none;
+  outline: none;
+  margin-right: 20px;
+  background: none;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.right{
+  display :flex;
+   align-items: center;
+}
+.right button {
+  border: none;
+  outline: none;
+  margin-right: 20px;
+  background: none;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0.9;
+}
